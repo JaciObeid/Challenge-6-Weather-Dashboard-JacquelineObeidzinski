@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="./Assets/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h1>Weather Forecast</h1>
+    </header>
+    <div id="flexBox">
+    <div id="formBox">
+        <form id="searchBtn">
+            <label for="citySearch">Search for a City</label><br>
+            <input type="text" id="citySearch" name="citySearch"><br><br>
+            <button type="submit" value="Submit">Submit</button>
+        </form>
+        <div id="citiesHistory"></div>
+    </div>
+    <div id="weatherForecast">
+        <div id="todaysWeather"></div>
+        <div id="weeksWeather">
+            <h3>5-dayForcast:</h3>
+        </div>
+    </div>
+</div>
+</body><script src="./Assets/js/script.js"></script>
+</html>
